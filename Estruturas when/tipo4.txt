@@ -1,0 +1,10 @@
+fun main() {
+	val lista = 1..15 
+    var num = lista.random() 
+    when (num) {
+		1, 2 -> print("Sorteado 1 ou 2")
+        in 3..5 -> print("Entre 3 e 5") /*usar in para representar uma sequência ou !in para representar uma condição negativa, ou seja, que não faz parte daquela sequencia.*/
+        !in 1..8 -> ("Não está entre 1 e 8")
+        else -> print("Maior que 8")
+    }
+}
