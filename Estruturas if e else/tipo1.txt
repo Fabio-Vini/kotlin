@@ -1,0 +1,8 @@
+fun main() {
+    var x = 10
+    var y = 15
+    
+    val maior = if (x > y){x} else {y} 
+    
+    print ("Maior: " + maior)
+}
