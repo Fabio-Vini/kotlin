@@ -1,0 +1,13 @@
+fun main() {
+    val times = arrayOf("Guarani", "PSG", "Milian")
+    val lista = 0..3 
+    var num = lista.random() 
+    when (num) {
+		0 -> print("Melhor sempre: " + times[0])
+        1 -> print("Melhor hoje: " + times[1])
+        2 -> print("Melhor antes: " + times[2])
+        else -> {
+            print("Nenhum time sorteado")
+        }
+    }
+}

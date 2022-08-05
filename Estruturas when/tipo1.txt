@@ -1,0 +1,12 @@
+fun main() {
+    var lista = 1..5 
+    var num = lista.random()
+    when (num)	{
+		1 -> print ("Número Sorteado = 1")
+        2 -> print ("Número Sorteado = 2")
+        3 -> print ("Número Sorteado = 3")
+        else -> {
+			print("Número sorteado maior que 3")
+        }
+    }
+}
